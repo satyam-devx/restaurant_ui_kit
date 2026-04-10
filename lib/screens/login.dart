@@ -146,6 +146,9 @@ class _LoginScreenState extends State<LoginScreen> {
           Container(
             height: 50.0,
             child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+            backgroundColor: Theme.of(context).colorScheme.secondary, // ✅ FIX
+              ),
               child: Text(
                 "LOGIN".toUpperCase(),
                 style: TextStyle(
