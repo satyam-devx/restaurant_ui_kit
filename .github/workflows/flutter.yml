@@ -18,13 +18,15 @@ jobs:
         with:
           flutter-version: '3.22.0'
 
-      - name: Clean Cache and Lock
+      - name: Clean Cache and Force Refresh
         run: |
           rm -f pubspec.lock
+          flutter pub cache clean -f   # Ye line zaroori hai purani cache delete karne ke liye
           flutter clean
 
       - name: Install dependencies
         run: flutter pub get
+
 
       - name: Build APK
         run: flutter build apk --release
