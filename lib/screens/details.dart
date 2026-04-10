@@ -263,7 +263,6 @@ class _ProductDetailsState extends State<ProductDetails> {
               color: Colors.white,
             ),
           ),
-          color: Theme.of(context).colorScheme.secondary,
           onPressed: (){},
         ),
       ),
