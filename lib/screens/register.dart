@@ -188,7 +188,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                 );
               },
-              color: Theme.of(context).colorScheme.secondary,
             ),
           ),
 
