@@ -32,7 +32,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.w700,
-                style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                color: Theme.of(context).colorScheme.secondary,
               ),
             ),
           ),
@@ -185,7 +185,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   ),
                 );
               },
-              style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+              color: Theme.of(context).colorScheme.secondary,
             ),
           ),
 

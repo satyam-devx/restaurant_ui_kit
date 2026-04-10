@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.w700,
-                style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                color: Theme.of(context).colorScheme.secondary,
               ),
             ),
           ),
@@ -134,7 +134,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: TextStyle(
                   fontSize: 14.0,
                   fontWeight: FontWeight.w500,
-                  style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                  color: Theme.of(context).colorScheme.secondary,
                 ),
               ),
               onPressed: (){},
@@ -161,7 +161,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 );
               },
-              style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+              color: Theme.of(context).colorScheme.secondary,
             ),
           ),
 

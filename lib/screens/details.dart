@@ -144,7 +144,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                     style: TextStyle(
                       fontSize: 14.0,
                       fontWeight: FontWeight.w900,
-                      style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
                   ),
 
@@ -260,7 +260,7 @@ class _ProductDetailsState extends State<ProductDetails> {
               color: Colors.white,
             ),
           ),
-          style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+          color: Theme.of(context).colorScheme.secondary,
           onPressed: (){},
         ),
       ),

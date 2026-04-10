@@ -82,7 +82,7 @@ class _ProfileState extends State<Profile> {
                               style: TextStyle(
                                 fontSize: 13.0,
                                 fontWeight: FontWeight.w400,
-                                style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                                color: Theme.of(context).colorScheme.secondary,
                               ),
                               overflow: TextOverflow.ellipsis,
                             ),

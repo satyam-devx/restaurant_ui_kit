@@ -37,7 +37,7 @@ class _CheckoutState extends State<Checkout> {
             tooltip: "Back",
             icon: Icon(
               Icons.clear,
-              style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+              color: Theme.of(context).colorScheme.secondary,
             ),
             onPressed: ()=>Navigator.pop(context),
           ),
@@ -104,7 +104,7 @@ class _CheckoutState extends State<Checkout> {
                 leading: Icon(
                   FontAwesomeIcons.creditCard,
                   size: 50.0,
-                  style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                  color: Theme.of(context).colorScheme.secondary,
                 ),
                 trailing: IconButton(
                   onPressed: (){},
@@ -182,7 +182,7 @@ class _CheckoutState extends State<Checkout> {
                       hintText: "Coupon Code",
                       prefixIcon: Icon(
                         Icons.redeem,
-                        style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                        color: Theme.of(context).colorScheme.secondary,
                       ),
                       hintStyle: TextStyle(
                         fontSize: 15.0,
@@ -217,7 +217,7 @@ class _CheckoutState extends State<Checkout> {
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.w900,
-                            style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                            color: Theme.of(context).colorScheme.secondary,
                           ),
                         ),
 
@@ -237,7 +237,7 @@ class _CheckoutState extends State<Checkout> {
                     width: 150.0,
                     height: 50.0,
                     child: TextButton(
-                      style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                      color: Theme.of(context).colorScheme.secondary,
                       child: Text(
                         "Place Order".toUpperCase(),
                         style: TextStyle(

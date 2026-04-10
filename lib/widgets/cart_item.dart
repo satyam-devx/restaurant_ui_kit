@@ -98,7 +98,7 @@ class CartItem extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 14.0,
                         fontWeight: FontWeight.w900,
-                        style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                        color: Theme.of(context).colorScheme.secondary,
                       ),
                     ),
 

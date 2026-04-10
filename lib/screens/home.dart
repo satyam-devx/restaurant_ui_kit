@@ -53,7 +53,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                     style: TextStyle(
 //                      fontSize: 22,
 //                      fontWeight: FontWeight.w800,
-                      style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
                   ),
                   onPressed: (){
@@ -146,7 +146,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                     style: TextStyle(
 //                      fontSize: 22,
 //                      fontWeight: FontWeight.w800,
-                      style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
                   ),
                   onPressed: (){},
