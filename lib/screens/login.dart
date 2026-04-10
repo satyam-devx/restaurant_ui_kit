@@ -166,7 +166,7 @@ class _LoginScreenState extends State<LoginScreen> {
           ),
 
           SizedBox(height: 10.0),
-          Divider(style: ElevatedButton.styleFrom(backgroundColor: Theme.of(context).colorScheme.secondary),),
+          Divider(color: Theme.of(context).colorScheme.secondary),
           SizedBox(height: 10.0),
 
 

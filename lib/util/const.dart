@@ -16,12 +16,11 @@ class Constants{
   static ThemeData lightTheme = ThemeData(
     scaffoldBackgroundColor: lightBG,
     primaryColor: lightPrimary,
-    accentColor:  lightAccent,
     cursorColor: lightAccent,
     scaffoldBackgroundColor: lightBG,
     appBarTheme: AppBarTheme(
       titleTextStyle: TextTheme(
-        titleTextStyle: TextStyle(
+        headline6: TextStyle(
           color: darkBG,
           fontSize: 18.0,
           fontWeight: FontWeight.w800,
@@ -37,12 +36,11 @@ class Constants{
     brightness: Brightness.dark,
     scaffoldBackgroundColor: darkBG,
     primaryColor: darkPrimary,
-    accentColor: darkAccent,
     scaffoldBackgroundColor: darkBG,
     cursorColor: darkAccent,
     appBarTheme: AppBarTheme(
       titleTextStyle: TextTheme(
-        titleTextStyle: TextStyle(
+        headline6: TextStyle(
           color: lightBG,
           fontSize: 18.0,
           fontWeight: FontWeight.w800,
