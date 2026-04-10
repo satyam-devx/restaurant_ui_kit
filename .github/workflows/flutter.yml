@@ -18,17 +18,21 @@ jobs:
         with:
           flutter-version: '3.22.0'
 
-      # 🔥 Clean project
+      # 🔥 IMPORTANT: recreate missing android files (gradlew fix)
+      - name: Recreate missing files
+        run: flutter create .
+
+      # 🔥 Clean everything
       - name: Clean project
         run: |
           rm -f pubspec.lock
           flutter clean
 
-      # 🔥 Install dependencies
+      # 🔥 Get dependencies
       - name: Install dependencies
         run: flutter pub get
 
-      # 🔥 Fix gradlew permission
+      # 🔥 Make gradlew executable (safe)
       - name: Fix gradlew permission
         run: chmod +x android/gradlew
 
