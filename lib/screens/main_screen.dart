@@ -16,7 +16,7 @@ class MainScreen extends StatefulWidget {
 }
 
 class _MainScreenState extends State<MainScreen> {
-  PageController _pageController;
+  late PageController _pageController;
   int _page = 0;
 
   @override
@@ -76,7 +76,7 @@ class _MainScreenState extends State<MainScreen> {
                   size: 24.0,
                 ),
                 color: _page == 0
-                    ? Theme.of(context).accentColor
+                    ? Theme.of(context).colorScheme.secondary
                     : Theme
                     .of(context)
                     .textTheme.caption.color,
@@ -89,7 +89,7 @@ class _MainScreenState extends State<MainScreen> {
                   size: 24.0,
                 ),
                 color: _page == 1
-                    ? Theme.of(context).accentColor
+                    ? Theme.of(context).colorScheme.secondary
                     : Theme
                     .of(context)
                     .textTheme.caption.color,
@@ -103,7 +103,7 @@ class _MainScreenState extends State<MainScreen> {
                   color: Theme.of(context).primaryColor,
                 ),
                 color: _page == 2
-                    ? Theme.of(context).accentColor
+                    ? Theme.of(context).colorScheme.secondary
                     : Theme
                     .of(context)
                     .textTheme.caption.color,
@@ -116,7 +116,7 @@ class _MainScreenState extends State<MainScreen> {
                   size: 24.0,
                 ),
                 color: _page == 3
-                    ? Theme.of(context).accentColor
+                    ? Theme.of(context).colorScheme.secondary
                     : Theme
                     .of(context)
                     .textTheme.caption.color,
@@ -129,7 +129,7 @@ class _MainScreenState extends State<MainScreen> {
                   size: 24.0,
                 ),
                 color: _page == 4
-                    ? Theme.of(context).accentColor
+                    ? Theme.of(context).colorScheme.secondary
                     : Theme
                     .of(context)
                     .textTheme.caption.color,

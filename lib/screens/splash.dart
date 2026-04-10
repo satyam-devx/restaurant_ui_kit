@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Icon(
                 Icons.fastfood,
                 size: 150.0,
-                color: Theme.of(context).accentColor,
+                color: Theme.of(context).colorScheme.secondary,
               ),
 
               SizedBox(width: 40.0),
@@ -63,7 +63,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   style: TextStyle(
                     fontSize: 25.0,
                     fontWeight: FontWeight.w700,
-                    color: Theme.of(context).accentColor,
+                    color: Theme.of(context).colorScheme.secondary,
                   ),
                 ),
               ),

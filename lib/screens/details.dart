@@ -144,7 +144,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                     style: TextStyle(
                       fontSize: 14.0,
                       fontWeight: FontWeight.w900,
-                      color: Theme.of(context).accentColor,
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
                   ),
 
@@ -253,14 +253,14 @@ class _ProductDetailsState extends State<ProductDetails> {
 
       bottomNavigationBar: Container(
         height: 50.0,
-        child: RaisedButton(
+        child: ElevatedButton(
           child: Text(
             "ADD TO CART",
             style: TextStyle(
               color: Colors.white,
             ),
           ),
-          color: Theme.of(context).accentColor,
+          color: Theme.of(context).colorScheme.secondary,
           onPressed: (){},
         ),
       ),

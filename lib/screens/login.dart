@@ -34,7 +34,7 @@ class _LoginScreenState extends State<LoginScreen> {
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.w700,
-                color: Theme.of(context).accentColor,
+                color: Theme.of(context).colorScheme.secondary,
               ),
             ),
           ),
@@ -128,13 +128,13 @@ class _LoginScreenState extends State<LoginScreen> {
 
           Container(
             alignment: Alignment.centerRight,
-            child: FlatButton(
+            child: TextButton(
               child: Text(
                 "Forgot Password?",
                 style: TextStyle(
                   fontSize: 14.0,
                   fontWeight: FontWeight.w500,
-                  color: Theme.of(context).accentColor,
+                  color: Theme.of(context).colorScheme.secondary,
                 ),
               ),
               onPressed: (){},
@@ -145,7 +145,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
           Container(
             height: 50.0,
-            child: RaisedButton(
+            child: ElevatedButton(
               child: Text(
                 "LOGIN".toUpperCase(),
                 style: TextStyle(
@@ -161,12 +161,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 );
               },
-              color: Theme.of(context).accentColor,
+              color: Theme.of(context).colorScheme.secondary,
             ),
           ),
 
           SizedBox(height: 10.0),
-          Divider(color: Theme.of(context).accentColor,),
+          Divider(color: Theme.of(context).colorScheme.secondary,),
           SizedBox(height: 10.0),
 
 

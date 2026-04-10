@@ -82,7 +82,7 @@ class _ProfileState extends State<Profile> {
                               style: TextStyle(
                                 fontSize: 13.0,
                                 fontWeight: FontWeight.w400,
-                                color: Theme.of(context).accentColor,
+                                color: Theme.of(context).colorScheme.secondary,
                               ),
                               overflow: TextOverflow.ellipsis,
                             ),
@@ -229,7 +229,7 @@ class _ProfileState extends State<Profile> {
                         .setTheme(Constants.lightTheme, "light");
                   }
                 },
-                activeColor: Theme.of(context).accentColor,
+                activeColor: Theme.of(context).colorScheme.secondary,
               ),
             ),
           ],

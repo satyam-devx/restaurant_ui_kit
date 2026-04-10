@@ -37,7 +37,7 @@ class _CheckoutState extends State<Checkout> {
             tooltip: "Back",
             icon: Icon(
               Icons.clear,
-              color: Theme.of(context).accentColor,
+              color: Theme.of(context).colorScheme.secondary,
             ),
             onPressed: ()=>Navigator.pop(context),
           ),
@@ -104,7 +104,7 @@ class _CheckoutState extends State<Checkout> {
                 leading: Icon(
                   FontAwesomeIcons.creditCard,
                   size: 50.0,
-                  color: Theme.of(context).accentColor,
+                  color: Theme.of(context).colorScheme.secondary,
                 ),
                 trailing: IconButton(
                   onPressed: (){},
@@ -182,7 +182,7 @@ class _CheckoutState extends State<Checkout> {
                       hintText: "Coupon Code",
                       prefixIcon: Icon(
                         Icons.redeem,
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).colorScheme.secondary,
                       ),
                       hintStyle: TextStyle(
                         fontSize: 15.0,
@@ -217,7 +217,7 @@ class _CheckoutState extends State<Checkout> {
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.w900,
-                            color: Theme.of(context).accentColor,
+                            color: Theme.of(context).colorScheme.secondary,
                           ),
                         ),
 
@@ -236,8 +236,8 @@ class _CheckoutState extends State<Checkout> {
                     padding: EdgeInsets.fromLTRB(5,5,10,5),
                     width: 150.0,
                     height: 50.0,
-                    child: FlatButton(
-                      color: Theme.of(context).accentColor,
+                    child: TextButton(
+                      color: Theme.of(context).colorScheme.secondary,
                       child: Text(
                         "Place Order".toUpperCase(),
                         style: TextStyle(

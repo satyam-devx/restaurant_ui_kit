@@ -13,7 +13,7 @@ class JoinApp extends StatefulWidget {
 
 class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
 
-  TabController _tabController;
+  late TabController _tabController;
 
   @override
   void initState() {
@@ -36,8 +36,8 @@ class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
         ),
         bottom: TabBar(
           controller: _tabController,
-          indicatorColor: Theme.of(context).accentColor,
-          labelColor: Theme.of(context).accentColor,
+          indicatorColor: Theme.of(context).colorScheme.secondary,
+          labelColor: Theme.of(context).colorScheme.secondary,
           unselectedLabelColor: Colors.grey,
           labelStyle: TextStyle(
             fontSize: 20.0,
